@@ -1,0 +1,50 @@
+/* space-mono-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/space-mono-v14-latin-regular.woff2") format("woff2");
+}
+
+/* space-mono-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/space-mono-v14-latin-italic.woff2") format("woff2");
+}
+
+/* space-mono-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/space-mono-v14-latin-700.woff2") format("woff2");
+}
+
+/* space-mono-700italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/space-mono-v14-latin-700italic.woff2") format("woff2");
+}
+
+body {
+  background-color: #1f1f28;
+  color: #dcd7ba;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
