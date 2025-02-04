@@ -48,3 +48,11 @@ h1 {
 p {
   font-size: 1em;
 }
+
+a {
+  color: #8a9a7b;
+}
+
+a:hover {
+  color: #879a87;
+}
