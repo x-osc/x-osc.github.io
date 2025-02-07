@@ -41,18 +41,33 @@ body {
   font-family: "Space Mono", monospace;
 }
 
+#main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 h1 {
   font-size: 2em;
 }
 
-p {
+h2 {
+  font-size: 1.5em;
+}
+
+p,
+ul,
+ol,
+a {
+  margin: 0;
   font-size: 1em;
 }
 
 a {
   color: #8a9a7b;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #879a87;
+  color: #1f1f28;
+  background-color: #8a9a7b;
 }
