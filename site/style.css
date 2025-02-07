@@ -34,6 +34,14 @@
   src: url("fonts/space-mono-v14-latin-700italic.woff2") format("woff2");
 }
 
+#container {
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #dcd7ba;
+}
+
 body {
   background-color: #1f1f28;
   color: #dcd7ba;
@@ -62,11 +70,8 @@ body {
   padding-right: 20px;
 }
 
-#main {
-  width: 90%;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+#main-section {
+  padding: 0 5% 5px 5%;
 }
 
 h1 {
@@ -93,4 +98,8 @@ a {
 a:hover {
   color: #1f1f28;
   background-color: #8a9a7b;
+}
+
+hr {
+  margin: 25px 10px;
 }
