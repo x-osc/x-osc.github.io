@@ -35,17 +35,19 @@
 }
 
 #container {
-  width: 90%;
-  max-width: 600px;
+  width: 80%;
+  max-width: 900px;
+  background-color: #1f1f28;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid #dcd7ba;
+  overflow: hidden;
 }
 
 body {
-  background-color: #1f1f28;
+  background-color: #17171d;
   color: #dcd7ba;
-  font-weight: 700;
+  font-weight: 400;
   font-family: "Space Mono", monospace;
 }
 
@@ -71,7 +73,19 @@ body {
 }
 
 #main-section {
-  padding: 0 5% 5px 5%;
+  display: flex;
+  padding-bottom: 5px;
+}
+
+#sidebar {
+  flex: 0 0 150px;
+  padding: 0 2%;
+}
+
+#main-content {
+  flex: 1;
+  min-width: 0;
+  padding: 0 2% 0 2%;
 }
 
 h1 {
