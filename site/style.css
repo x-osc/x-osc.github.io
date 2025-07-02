@@ -117,3 +117,18 @@ a:hover {
 hr {
   margin: 25px 10px;
 }
+
+.review-section {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.review-reverse {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.review-section img {
+  margin-top: 20px;
+}

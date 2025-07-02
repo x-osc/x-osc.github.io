@@ -14,6 +14,12 @@
   height: 100%;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .rain {
+    display: none;
+  }
+}
+
 .rain.front-row {
   bottom: 0px;
   opacity: 0.85;
