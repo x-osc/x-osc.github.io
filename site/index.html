@@ -41,7 +41,6 @@
             web site is work in progress
           </p>
         </section>
-
         <hr />
 
         <section>
@@ -54,11 +53,42 @@
           </ul>
         </section>
         <hr />
+
+        <h2 id="play-state">Loading...</h2>
+        <div id="widget" class="content">
+          <img id="track-art" width="120px" height="120px" />
+          <div id="track-info">
+            <h3 id="track-name"></h3>
+            <p id="track-artist"></p>
+            <!-- <br /> -->
+            <!-- <p id="track-album"></p> -->
+          </div>
+        </div>
+        <div>
+          <p>
+            <small>
+              latest played song on
+              <a id="user" href="https://last.fm/user/x-osc" target="_blank">
+                last.fm
+              </a>
+            </small>
+          </p>
+          <p>
+            <small>
+              powered by
+              <a href="https://github.com/biancarosa/lastfm-last-played" target="_blank">
+                @biancarosa/lastfm-last-played
+              </a>
+            </small>
+          </p>
+        </div>
+        <hr />
       </div>
     </div>
     <footer></footer>
   </div>
 
+  <script src="lastfm.js"></script>
   <script src="oneko.js"></script>
   <script src="weather.js"></script>
 </body>
