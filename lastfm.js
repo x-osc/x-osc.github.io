@@ -27,7 +27,7 @@ fetch(url)
     //play boolean
     let playBoo = false;
     if (track["@attr"]) {
-      let playBoo = track["@attr"]["nowplaying"];
+      playBoo = track["@attr"]["nowplaying"];
     }
 
     console.log(playBoo);
