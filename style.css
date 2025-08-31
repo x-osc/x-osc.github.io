@@ -72,6 +72,10 @@ body {
   padding-right: 20px;
 }
 
+#nav ul li a:hover {
+  text-decoration: underline;
+}
+
 #main-section {
   display: flex;
   padding-bottom: 5px;
