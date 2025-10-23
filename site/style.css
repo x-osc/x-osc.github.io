@@ -118,6 +118,11 @@ a:hover {
   background-color: #8a9a7b;
 }
 
+a.buttonNOTAREALBUTTON {
+  text-decoration: none !important;
+  color: auto !important;
+}
+
 hr {
   margin: 25px 10px;
 }
