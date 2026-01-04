@@ -3,10 +3,10 @@ let url =
   "https://lastfm-last-played.biancarosa.com.br/" + user + "/latest-song";
 
 fetch(url)
-  .then(function(response) {
+  .then(function (response) {
     return response.json();
   })
-  .then(function(json) {
+  .then(function (json) {
     const playTitle = document.getElementById("play-state");
     playTitle.innerText = "Last Played";
 
@@ -33,7 +33,7 @@ fetch(url)
     console.log(playBoo);
     if (playBoo) {
       //if there's something in play boolean, say 'now playing'
-      playTitle.innerText = "Now Playing";
+      playTitle.innerText = "Currently Listening";
     } else {
       playTitle.innerText = "Last Played";
     }
